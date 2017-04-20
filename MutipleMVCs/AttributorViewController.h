@@ -10,4 +10,8 @@
 
 @interface AttributorViewController : UIViewController
 
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText;
+
+- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar;
+
 @end

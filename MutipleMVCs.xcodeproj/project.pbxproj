@@ -18,6 +18,7 @@
 		1F1B9B1A1EA8A0A900644E67 /* MutipleMVCsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B191EA8A0A900644E67 /* MutipleMVCsUITests.m */; };
 		1F1B9B2C1EA8A6A900644E67 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B2B1EA8A6A900644E67 /* CardGameViewController.m */; };
 		1F1B9B2F1EA8A8DE00644E67 /* AttributorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B2E1EA8A8DE00644E67 /* AttributorViewController.m */; };
+		1F1B9B321EA8AEAF00644E67 /* AttributorSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B311EA8AEAF00644E67 /* AttributorSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		1F1B9B2B1EA8A6A900644E67 /* CardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
 		1F1B9B2D1EA8A8DE00644E67 /* AttributorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributorViewController.h; sourceTree = "<group>"; };
 		1F1B9B2E1EA8A8DE00644E67 /* AttributorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributorViewController.m; sourceTree = "<group>"; };
+		1F1B9B301EA8AEAF00644E67 /* AttributorSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributorSecondViewController.h; sourceTree = "<group>"; };
+		1F1B9B311EA8AEAF00644E67 /* AttributorSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributorSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +117,7 @@
 				1F1B9AF71EA8A0A900644E67 /* ViewController.h */,
 				1F1B9AF81EA8A0A900644E67 /* ViewController.m */,
 				1F1B9AFA1EA8A0A900644E67 /* Main.storyboard */,
-				1F1B9B2D1EA8A8DE00644E67 /* AttributorViewController.h */,
-				1F1B9B2E1EA8A8DE00644E67 /* AttributorViewController.m */,
+				1F1B9B331EA8AEF700644E67 /* Attributor */,
 				1F1B9B2A1EA8A6A900644E67 /* CardGameViewController.h */,
 				1F1B9B2B1EA8A6A900644E67 /* CardGameViewController.m */,
 				1F1B9B001EA8A0A900644E67 /* Assets.xcassets */,
@@ -151,6 +153,17 @@
 				1F1B9B1B1EA8A0A900644E67 /* Info.plist */,
 			);
 			path = MutipleMVCsUITests;
+			sourceTree = "<group>";
+		};
+		1F1B9B331EA8AEF700644E67 /* Attributor */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B9B2E1EA8A8DE00644E67 /* AttributorViewController.m */,
+				1F1B9B2D1EA8A8DE00644E67 /* AttributorViewController.h */,
+				1F1B9B311EA8AEAF00644E67 /* AttributorSecondViewController.m */,
+				1F1B9B301EA8AEAF00644E67 /* AttributorSecondViewController.h */,
+			);
+			name = Attributor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +304,7 @@
 				1F1B9B2C1EA8A6A900644E67 /* CardGameViewController.m in Sources */,
 				1F1B9AF61EA8A0A900644E67 /* AppDelegate.m in Sources */,
 				1F1B9B2F1EA8A8DE00644E67 /* AttributorViewController.m in Sources */,
+				1F1B9B321EA8AEAF00644E67 /* AttributorSecondViewController.m in Sources */,
 				1F1B9AF31EA8A0A900644E67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

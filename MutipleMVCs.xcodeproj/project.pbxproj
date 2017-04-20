@@ -19,6 +19,12 @@
 		1F1B9B2C1EA8A6A900644E67 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B2B1EA8A6A900644E67 /* CardGameViewController.m */; };
 		1F1B9B2F1EA8A8DE00644E67 /* AttributorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B2E1EA8A8DE00644E67 /* AttributorViewController.m */; };
 		1F1B9B321EA8AEAF00644E67 /* AttributorSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B311EA8AEAF00644E67 /* AttributorSecondViewController.m */; };
+		1F1B9B371EA8B9F100644E67 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B361EA8B9F100644E67 /* Card.m */; };
+		1F1B9B3A1EA8BA4300644E67 /* UnoCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B391EA8BA4300644E67 /* UnoCard.m */; };
+		1F1B9B3D1EA8BA7A00644E67 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B3C1EA8BA7A00644E67 /* Deck.m */; };
+		1F1B9B431EA8BB1F00644E67 /* UnoCardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B421EA8BB1F00644E67 /* UnoCardMatchingGame.m */; };
+		1F1B9B461EA8BB5B00644E67 /* UnoCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B451EA8BB5B00644E67 /* UnoCardDeck.m */; };
+		1F1B9B491EA8C4A600644E67 /* GameCompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B481EA8C4A600644E67 /* GameCompleteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +68,18 @@
 		1F1B9B2E1EA8A8DE00644E67 /* AttributorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributorViewController.m; sourceTree = "<group>"; };
 		1F1B9B301EA8AEAF00644E67 /* AttributorSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributorSecondViewController.h; sourceTree = "<group>"; };
 		1F1B9B311EA8AEAF00644E67 /* AttributorSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributorSecondViewController.m; sourceTree = "<group>"; };
+		1F1B9B351EA8B9F100644E67 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		1F1B9B361EA8B9F100644E67 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		1F1B9B381EA8BA4300644E67 /* UnoCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnoCard.h; sourceTree = "<group>"; };
+		1F1B9B391EA8BA4300644E67 /* UnoCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnoCard.m; sourceTree = "<group>"; };
+		1F1B9B3B1EA8BA7A00644E67 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		1F1B9B3C1EA8BA7A00644E67 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		1F1B9B411EA8BB1F00644E67 /* UnoCardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnoCardMatchingGame.h; sourceTree = "<group>"; };
+		1F1B9B421EA8BB1F00644E67 /* UnoCardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnoCardMatchingGame.m; sourceTree = "<group>"; };
+		1F1B9B441EA8BB5B00644E67 /* UnoCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnoCardDeck.h; sourceTree = "<group>"; };
+		1F1B9B451EA8BB5B00644E67 /* UnoCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnoCardDeck.m; sourceTree = "<group>"; };
+		1F1B9B471EA8C4A600644E67 /* GameCompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCompleteViewController.h; sourceTree = "<group>"; };
+		1F1B9B481EA8C4A600644E67 /* GameCompleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCompleteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +136,7 @@
 				1F1B9AF81EA8A0A900644E67 /* ViewController.m */,
 				1F1B9AFA1EA8A0A900644E67 /* Main.storyboard */,
 				1F1B9B331EA8AEF700644E67 /* Attributor */,
-				1F1B9B2A1EA8A6A900644E67 /* CardGameViewController.h */,
-				1F1B9B2B1EA8A6A900644E67 /* CardGameViewController.m */,
+				1F1B9B341EA8B9C600644E67 /* CardGame */,
 				1F1B9B001EA8A0A900644E67 /* Assets.xcassets */,
 				1F1B9B021EA8A0A900644E67 /* LaunchScreen.storyboard */,
 				1F1B9B051EA8A0A900644E67 /* Info.plist */,
@@ -164,6 +181,27 @@
 				1F1B9B301EA8AEAF00644E67 /* AttributorSecondViewController.h */,
 			);
 			name = Attributor;
+			sourceTree = "<group>";
+		};
+		1F1B9B341EA8B9C600644E67 /* CardGame */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B9B2A1EA8A6A900644E67 /* CardGameViewController.h */,
+				1F1B9B2B1EA8A6A900644E67 /* CardGameViewController.m */,
+				1F1B9B471EA8C4A600644E67 /* GameCompleteViewController.h */,
+				1F1B9B481EA8C4A600644E67 /* GameCompleteViewController.m */,
+				1F1B9B351EA8B9F100644E67 /* Card.h */,
+				1F1B9B361EA8B9F100644E67 /* Card.m */,
+				1F1B9B381EA8BA4300644E67 /* UnoCard.h */,
+				1F1B9B391EA8BA4300644E67 /* UnoCard.m */,
+				1F1B9B3B1EA8BA7A00644E67 /* Deck.h */,
+				1F1B9B3C1EA8BA7A00644E67 /* Deck.m */,
+				1F1B9B441EA8BB5B00644E67 /* UnoCardDeck.h */,
+				1F1B9B451EA8BB5B00644E67 /* UnoCardDeck.m */,
+				1F1B9B411EA8BB1F00644E67 /* UnoCardMatchingGame.h */,
+				1F1B9B421EA8BB1F00644E67 /* UnoCardMatchingGame.m */,
+			);
+			name = CardGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,13 +337,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1B9B3D1EA8BA7A00644E67 /* Deck.m in Sources */,
 				1F1B9AF91EA8A0A900644E67 /* ViewController.m in Sources */,
 				1F1B9AFF1EA8A0A900644E67 /* MutipleMVCs.xcdatamodeld in Sources */,
 				1F1B9B2C1EA8A6A900644E67 /* CardGameViewController.m in Sources */,
+				1F1B9B371EA8B9F100644E67 /* Card.m in Sources */,
+				1F1B9B3A1EA8BA4300644E67 /* UnoCard.m in Sources */,
 				1F1B9AF61EA8A0A900644E67 /* AppDelegate.m in Sources */,
+				1F1B9B491EA8C4A600644E67 /* GameCompleteViewController.m in Sources */,
 				1F1B9B2F1EA8A8DE00644E67 /* AttributorViewController.m in Sources */,
+				1F1B9B431EA8BB1F00644E67 /* UnoCardMatchingGame.m in Sources */,
 				1F1B9B321EA8AEAF00644E67 /* AttributorSecondViewController.m in Sources */,
 				1F1B9AF31EA8A0A900644E67 /* main.m in Sources */,
+				1F1B9B461EA8BB5B00644E67 /* UnoCardDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +579,7 @@
 				1F1B9B201EA8A0A900644E67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F1B9B211EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MutipleMVCsTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +588,7 @@
 				1F1B9B231EA8A0A900644E67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F1B9B241EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MutipleMVCsUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +597,7 @@
 				1F1B9B261EA8A0A900644E67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

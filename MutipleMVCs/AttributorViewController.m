@@ -19,6 +19,7 @@
 @implementation AttributorViewController
 
 #pragma mark - buttons
+
 - (IBAction)touchColorButton:(UIButton *)sender {
     NSMutableAttributedString *attrStr =[[NSMutableAttributedString alloc] initWithAttributedString:[[self mainTextView] attributedText] ] ;
     NSRange range = [[self mainTextView] selectedRange];
@@ -46,6 +47,7 @@
 }
 
 #pragma mark - searchbar
+
 - (void)searchBar:(UISearchBar *)searchBar
     textDidChange:(NSString *)searchText{
     [self clearHightlight];
@@ -97,7 +99,11 @@
     [[self mainTextView] setAttributedText:attrStr];
 }
 
+#pragma mark - notification
 
+-(void)preferFontStleChange:(NSNotification *)notification {
+    self.mainTextView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+}
 
 #pragma mark - view settings
 
@@ -117,6 +123,18 @@
     // Do any additional setup after loading the view.
     _mySearchBar.delegate = self;
 
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear: animated];
+    //新增廣播接收設定變化
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(preferFontStleChange:) name:UIContentSizeCategoryDidChangeNotification object:nil];
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear: animated];
+    //刪除廣播
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIContentSizeCategoryDidChangeNotification object:nil];
 }
 
 - (void)didReceiveMemoryWarning {

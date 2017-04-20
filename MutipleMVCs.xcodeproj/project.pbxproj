@@ -16,6 +16,8 @@
 		1F1B9B041EA8A0A900644E67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B9B021EA8A0A900644E67 /* LaunchScreen.storyboard */; };
 		1F1B9B0F1EA8A0A900644E67 /* MutipleMVCsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B0E1EA8A0A900644E67 /* MutipleMVCsTests.m */; };
 		1F1B9B1A1EA8A0A900644E67 /* MutipleMVCsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B191EA8A0A900644E67 /* MutipleMVCsUITests.m */; };
+		1F1B9B2C1EA8A6A900644E67 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B2B1EA8A6A900644E67 /* CardGameViewController.m */; };
+		1F1B9B2F1EA8A8DE00644E67 /* AttributorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B9B2E1EA8A8DE00644E67 /* AttributorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		1F1B9B151EA8A0A900644E67 /* MutipleMVCsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutipleMVCsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1B9B191EA8A0A900644E67 /* MutipleMVCsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutipleMVCsUITests.m; sourceTree = "<group>"; };
 		1F1B9B1B1EA8A0A900644E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1B9B2A1EA8A6A900644E67 /* CardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		1F1B9B2B1EA8A6A900644E67 /* CardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		1F1B9B2D1EA8A8DE00644E67 /* AttributorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributorViewController.h; sourceTree = "<group>"; };
+		1F1B9B2E1EA8A8DE00644E67 /* AttributorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 				1F1B9AF71EA8A0A900644E67 /* ViewController.h */,
 				1F1B9AF81EA8A0A900644E67 /* ViewController.m */,
 				1F1B9AFA1EA8A0A900644E67 /* Main.storyboard */,
+				1F1B9B2D1EA8A8DE00644E67 /* AttributorViewController.h */,
+				1F1B9B2E1EA8A8DE00644E67 /* AttributorViewController.m */,
+				1F1B9B2A1EA8A6A900644E67 /* CardGameViewController.h */,
+				1F1B9B2B1EA8A6A900644E67 /* CardGameViewController.m */,
 				1F1B9B001EA8A0A900644E67 /* Assets.xcassets */,
 				1F1B9B021EA8A0A900644E67 /* LaunchScreen.storyboard */,
 				1F1B9B051EA8A0A900644E67 /* Info.plist */,
@@ -278,7 +288,9 @@
 			files = (
 				1F1B9AF91EA8A0A900644E67 /* ViewController.m in Sources */,
 				1F1B9AFF1EA8A0A900644E67 /* MutipleMVCs.xcdatamodeld in Sources */,
+				1F1B9B2C1EA8A6A900644E67 /* CardGameViewController.m in Sources */,
 				1F1B9AF61EA8A0A900644E67 /* AppDelegate.m in Sources */,
+				1F1B9B2F1EA8A8DE00644E67 /* AttributorViewController.m in Sources */,
 				1F1B9AF31EA8A0A900644E67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

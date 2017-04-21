@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F1B9AED1EA8A0A900644E67"
-               BuildableName = "MutipleMVCs.app"
-               BlueprintName = "MutipleMVCs"
-               ReferencedContainer = "container:MutipleMVCs.xcodeproj">
+               BuildableName = "MultipleMVCs.app"
+               BlueprintName = "MultipleMVCs"
+               ReferencedContainer = "container:MultipleMVCs.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F1B9B091EA8A0A900644E67"
-               BuildableName = "MutipleMVCsTests.xctest"
-               BlueprintName = "MutipleMVCsTests"
-               ReferencedContainer = "container:MutipleMVCs.xcodeproj">
+               BuildableName = "MultipleMVCsTests.xctest"
+               BlueprintName = "MultipleMVCsTests"
+               ReferencedContainer = "container:MultipleMVCs.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F1B9B141EA8A0A900644E67"
-               BuildableName = "MutipleMVCsUITests.xctest"
-               BlueprintName = "MutipleMVCsUITests"
-               ReferencedContainer = "container:MutipleMVCs.xcodeproj">
+               BuildableName = "MultipleMVCsUITests.xctest"
+               BlueprintName = "MultipleMVCsUITests"
+               ReferencedContainer = "container:MultipleMVCs.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F1B9AED1EA8A0A900644E67"
-            BuildableName = "MutipleMVCs.app"
-            BlueprintName = "MutipleMVCs"
-            ReferencedContainer = "container:MutipleMVCs.xcodeproj">
+            BuildableName = "MultipleMVCs.app"
+            BlueprintName = "MultipleMVCs"
+            ReferencedContainer = "container:MultipleMVCs.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F1B9AED1EA8A0A900644E67"
-            BuildableName = "MutipleMVCs.app"
-            BlueprintName = "MutipleMVCs"
-            ReferencedContainer = "container:MutipleMVCs.xcodeproj">
+            BuildableName = "MultipleMVCs.app"
+            BlueprintName = "MultipleMVCs"
+            ReferencedContainer = "container:MultipleMVCs.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F1B9AED1EA8A0A900644E67"
-            BuildableName = "MutipleMVCs.app"
-            BlueprintName = "MutipleMVCs"
-            ReferencedContainer = "container:MutipleMVCs.xcodeproj">
+            BuildableName = "MultipleMVCs.app"
+            BlueprintName = "MultipleMVCs"
+            ReferencedContainer = "container:MultipleMVCs.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

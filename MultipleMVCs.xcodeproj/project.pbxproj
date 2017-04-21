@@ -45,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F1B9AEE1EA8A0A900644E67 /* MutipleMVCs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutipleMVCs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1B9AEE1EA8A0A900644E67 /* MultipleMVCs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleMVCs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1B9AF21EA8A0A900644E67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F1B9AF41EA8A0A900644E67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F1B9AF51EA8A0A900644E67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,10 +56,10 @@
 		1F1B9B001EA8A0A900644E67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F1B9B031EA8A0A900644E67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F1B9B051EA8A0A900644E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F1B9B0A1EA8A0A900644E67 /* MutipleMVCsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutipleMVCsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1B9B0A1EA8A0A900644E67 /* MultipleMVCsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleMVCsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1B9B0E1EA8A0A900644E67 /* MutipleMVCsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutipleMVCsTests.m; sourceTree = "<group>"; };
 		1F1B9B101EA8A0A900644E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F1B9B151EA8A0A900644E67 /* MutipleMVCsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutipleMVCsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1B9B151EA8A0A900644E67 /* MultipleMVCsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleMVCsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1B9B191EA8A0A900644E67 /* MutipleMVCsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutipleMVCsUITests.m; sourceTree = "<group>"; };
 		1F1B9B1B1EA8A0A900644E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F1B9B2A1EA8A6A900644E67 /* CardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		1F1B9AE51EA8A0A900644E67 = {
 			isa = PBXGroup;
 			children = (
-				1F1B9AF01EA8A0A900644E67 /* MutipleMVCs */,
+				1F1B9AF01EA8A0A900644E67 /* MultipleMVCs */,
 				1F1B9B0D1EA8A0A900644E67 /* MutipleMVCsTests */,
 				1F1B9B181EA8A0A900644E67 /* MutipleMVCsUITests */,
 				1F1B9AEF1EA8A0A900644E67 /* Products */,
@@ -120,14 +120,14 @@
 		1F1B9AEF1EA8A0A900644E67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F1B9AEE1EA8A0A900644E67 /* MutipleMVCs.app */,
-				1F1B9B0A1EA8A0A900644E67 /* MutipleMVCsTests.xctest */,
-				1F1B9B151EA8A0A900644E67 /* MutipleMVCsUITests.xctest */,
+				1F1B9AEE1EA8A0A900644E67 /* MultipleMVCs.app */,
+				1F1B9B0A1EA8A0A900644E67 /* MultipleMVCsTests.xctest */,
+				1F1B9B151EA8A0A900644E67 /* MultipleMVCsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F1B9AF01EA8A0A900644E67 /* MutipleMVCs */ = {
+		1F1B9AF01EA8A0A900644E67 /* MultipleMVCs */ = {
 			isa = PBXGroup;
 			children = (
 				1F1B9AF41EA8A0A900644E67 /* AppDelegate.h */,
@@ -143,7 +143,7 @@
 				1F1B9AFD1EA8A0A900644E67 /* MutipleMVCs.xcdatamodeld */,
 				1F1B9AF11EA8A0A900644E67 /* Supporting Files */,
 			);
-			path = MutipleMVCs;
+			path = MultipleMVCs;
 			sourceTree = "<group>";
 		};
 		1F1B9AF11EA8A0A900644E67 /* Supporting Files */ = {
@@ -207,9 +207,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F1B9AED1EA8A0A900644E67 /* MutipleMVCs */ = {
+		1F1B9AED1EA8A0A900644E67 /* MultipleMVCs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F1B9B1E1EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MutipleMVCs" */;
+			buildConfigurationList = 1F1B9B1E1EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MultipleMVCs" */;
 			buildPhases = (
 				1F1B9AEA1EA8A0A900644E67 /* Sources */,
 				1F1B9AEB1EA8A0A900644E67 /* Frameworks */,
@@ -219,14 +219,14 @@
 			);
 			dependencies = (
 			);
-			name = MutipleMVCs;
+			name = MultipleMVCs;
 			productName = MutipleMVCs;
-			productReference = 1F1B9AEE1EA8A0A900644E67 /* MutipleMVCs.app */;
+			productReference = 1F1B9AEE1EA8A0A900644E67 /* MultipleMVCs.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F1B9B091EA8A0A900644E67 /* MutipleMVCsTests */ = {
+		1F1B9B091EA8A0A900644E67 /* MultipleMVCsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F1B9B211EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MutipleMVCsTests" */;
+			buildConfigurationList = 1F1B9B211EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MultipleMVCsTests" */;
 			buildPhases = (
 				1F1B9B061EA8A0A900644E67 /* Sources */,
 				1F1B9B071EA8A0A900644E67 /* Frameworks */,
@@ -237,14 +237,14 @@
 			dependencies = (
 				1F1B9B0C1EA8A0A900644E67 /* PBXTargetDependency */,
 			);
-			name = MutipleMVCsTests;
+			name = MultipleMVCsTests;
 			productName = MutipleMVCsTests;
-			productReference = 1F1B9B0A1EA8A0A900644E67 /* MutipleMVCsTests.xctest */;
+			productReference = 1F1B9B0A1EA8A0A900644E67 /* MultipleMVCsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1F1B9B141EA8A0A900644E67 /* MutipleMVCsUITests */ = {
+		1F1B9B141EA8A0A900644E67 /* MultipleMVCsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F1B9B241EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MutipleMVCsUITests" */;
+			buildConfigurationList = 1F1B9B241EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MultipleMVCsUITests" */;
 			buildPhases = (
 				1F1B9B111EA8A0A900644E67 /* Sources */,
 				1F1B9B121EA8A0A900644E67 /* Frameworks */,
@@ -255,9 +255,9 @@
 			dependencies = (
 				1F1B9B171EA8A0A900644E67 /* PBXTargetDependency */,
 			);
-			name = MutipleMVCsUITests;
+			name = MultipleMVCsUITests;
 			productName = MutipleMVCsUITests;
-			productReference = 1F1B9B151EA8A0A900644E67 /* MutipleMVCsUITests.xctest */;
+			productReference = 1F1B9B151EA8A0A900644E67 /* MultipleMVCsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F1B9AE91EA8A0A900644E67 /* Build configuration list for PBXProject "MutipleMVCs" */;
+			buildConfigurationList = 1F1B9AE91EA8A0A900644E67 /* Build configuration list for PBXProject "MultipleMVCs" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -298,9 +298,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F1B9AED1EA8A0A900644E67 /* MutipleMVCs */,
-				1F1B9B091EA8A0A900644E67 /* MutipleMVCsTests */,
-				1F1B9B141EA8A0A900644E67 /* MutipleMVCsUITests */,
+				1F1B9AED1EA8A0A900644E67 /* MultipleMVCs */,
+				1F1B9B091EA8A0A900644E67 /* MultipleMVCsTests */,
+				1F1B9B141EA8A0A900644E67 /* MultipleMVCsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -374,12 +374,12 @@
 /* Begin PBXTargetDependency section */
 		1F1B9B0C1EA8A0A900644E67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F1B9AED1EA8A0A900644E67 /* MutipleMVCs */;
+			target = 1F1B9AED1EA8A0A900644E67 /* MultipleMVCs */;
 			targetProxy = 1F1B9B0B1EA8A0A900644E67 /* PBXContainerItemProxy */;
 		};
 		1F1B9B171EA8A0A900644E67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F1B9AED1EA8A0A900644E67 /* MutipleMVCs */;
+			target = 1F1B9AED1EA8A0A900644E67 /* MultipleMVCs */;
 			targetProxy = 1F1B9B161EA8A0A900644E67 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -496,9 +496,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MutipleMVCs/Info.plist;
+				INFOPLIST_FILE = MultipleMVCs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aphromis.MutipleMVCs;
+				PRODUCT_BUNDLE_IDENTIFIER = aphromis.MultipleMVCs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -507,9 +507,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MutipleMVCs/Info.plist;
+				INFOPLIST_FILE = MultipleMVCs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aphromis.MutipleMVCs;
+				PRODUCT_BUNDLE_IDENTIFIER = aphromis.MultipleMVCs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -522,7 +522,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aphromis.MutipleMVCsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutipleMVCs.app/MutipleMVCs";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleMVCs.app/MultipleMVCs";
 			};
 			name = Debug;
 		};
@@ -534,7 +534,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aphromis.MutipleMVCsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutipleMVCs.app/MutipleMVCs";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleMVCs.app/MultipleMVCs";
 			};
 			name = Release;
 		};
@@ -563,7 +563,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F1B9AE91EA8A0A900644E67 /* Build configuration list for PBXProject "MutipleMVCs" */ = {
+		1F1B9AE91EA8A0A900644E67 /* Build configuration list for PBXProject "MultipleMVCs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F1B9B1C1EA8A0A900644E67 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F1B9B1E1EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MutipleMVCs" */ = {
+		1F1B9B1E1EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MultipleMVCs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F1B9B1F1EA8A0A900644E67 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F1B9B211EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MutipleMVCsTests" */ = {
+		1F1B9B211EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MultipleMVCsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F1B9B221EA8A0A900644E67 /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F1B9B241EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MutipleMVCsUITests" */ = {
+		1F1B9B241EA8A0A900644E67 /* Build configuration list for PBXNativeTarget "MultipleMVCsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F1B9B251EA8A0A900644E67 /* Debug */,

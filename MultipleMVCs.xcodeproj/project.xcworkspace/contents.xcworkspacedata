@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MutipleMVCs.xcodeproj">
+      location = "self:/Users/aphromis/Documents/2017_iOS/hw06/MutipleMVCs/MultipleMVCs.xcodeproj">
    </FileRef>
 </Workspace>

@@ -20,7 +20,7 @@
 -(void)updateUI {
     self.ScoreGotLabel.text = self.scoreText;
     
-    NSString *text = @"You fliped ";
+    NSString *text = @"You flipped ";
     NSString *count = [NSString stringWithFormat:@"%i", self.flipCount];
     text = [text stringByAppendingString:count];
     text = [text stringByAppendingString:@" times."];
